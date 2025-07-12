@@ -16,5 +16,7 @@ public class goalparsher {
                 Build.append(ch);
             }
         }
+
+        System.out.println(Build.toString());
     }
 }
