@@ -8,10 +8,10 @@ public class goalparsher {
 
             char ch = command.charAt(i);
 
-            if (ch == 'c' && command.charAt(i +1) == ')') {
+            if (ch == '(' && command.charAt(i +1) == ')') {
                 Build.append("o");
-            }else if (ch == "()") {
-                Build.append("o");
+            }else if (ch == '(' && command.charAt(i+1) == 'a') {
+                Build.append("al");
             }else{
                 Build.append(ch);
             }
