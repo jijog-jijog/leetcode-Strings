@@ -15,6 +15,6 @@ public class sorting {
             res[pos-1] = a.substring(0,len-1);
         }
         // System.out.println(String.join(" ", res));
-        System.out.println(new String(res));
+        // System.out.println(new String(res));
     }
 }
