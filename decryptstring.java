@@ -6,7 +6,7 @@ public class decryptstring {
          for(int i=s.length()-1; i>=0; i--){
             char ch = s.charAt(i);
 
-            if (ch) {
+            if (ch >= 'a' && ch<= 'i') {
                 
             }
             System.out.println(ch);
