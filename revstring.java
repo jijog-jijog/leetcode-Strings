@@ -13,5 +13,7 @@ public class revstring {
             str.append(rev);
         }
 
+        System.out.println(split.toString());
+
     }
 }
