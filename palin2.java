@@ -8,18 +8,19 @@ public class palin2 {
         int j = s.length()-1;
 
         boolean ans = true;
-    //     while (i < j) {
-    //         if (s.charAt(i) == s.charAt(j))  {
-    //             i++;
-    //             j--;
-    //         }else if (s.charAt(i) != s.charAt(j)) {
-    //             // s.charAt(j).remove;
-    //         }
-    //         else {
-    //             ans = false;
-    //             break;
-    //     }
-    // }
-        System.out.println(build.toString());
+        while (i < j) {
+            if (build.charAt(i) == build.charAt(j))  {
+                i++;
+                j--;
+            }if (build.charAt(i) != build.charAt(j)) {
+                 build.deleteCharAt(j);
+                 j--;
+            }
+            else {
+                ans = false;
+                break;
+        }
+    }
+        System.out.println(ans);
     }
 }
