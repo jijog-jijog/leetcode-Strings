@@ -9,7 +9,7 @@ public class revstring {
         String[] split = s.split(" ");
 
         for(String a : split){
-            String rev = a.reverse();
+            String rev = new StringBuilder().a.reverse().toString();
             str.append(rev);
         }
 
