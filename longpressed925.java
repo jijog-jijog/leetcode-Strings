@@ -7,14 +7,14 @@ public class longpressed925 {
         boolean ans = false;
         int i =0; int j=0;
 
-        while(j <= typed.length()){
-            char ch1 = name.charAt(i);
-            char ch2 = typed.charAt(j);
+        while(j < typed.length()){
+            char ch1 = i< name.length() ?name.charAt(i) : '#';
+            char ch2 =  typed.charAt(j);
 
-            if (i<name.length() && ch1==ch2) {
+            if (ch1==ch2) {
                 i++;
                 j++;
-            }else if (j>0 && ch2 == typed.charAt(j - 1)) {
+            }else if (j>0 && typed.charAt(j) == typed.charAt(j - 1)) {
                 j++;
             }else{
                 ans = false;
