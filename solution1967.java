@@ -4,7 +4,7 @@ public class solution1967 {
         String word = "abc";
         
         for(String a : patterns){
-
+            
             System.out.println(a);
         }
     }
