@@ -10,10 +10,10 @@ public class revstring {
 
         for(String a : split){
             String rev = new StringBuilder(a).reverse().toString();
-            str.append(rev);
+            str.append(rev + " ");
         }
 
-        System.out.println(split.toString());
+        System.out.println(str.toString());
 
     }
 }
