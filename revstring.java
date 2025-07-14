@@ -1,5 +1,4 @@
 
-import java.util.Arrays;
 
 public class revstring {
     public static void main(String[] args) {
@@ -9,7 +8,10 @@ public class revstring {
 
         String[] split = s.split(" ");
 
-        System.out.println(Arrays.toString(split));
+        for(String a : split){
+            String rev = a.reverse();
+            str.append(rev);
+        }
 
     }
 }
