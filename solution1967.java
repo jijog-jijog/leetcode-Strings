@@ -5,7 +5,7 @@ public class solution1967 {
         
         int count = 0;
         for(String a : patterns){
-            for(int i=0; i<word.length(); i++){
+            for(int i=0; i<patterns.length; i++){
                 char ch = word.charAt(i);
                 char ah = a.charAt(i);
                 
