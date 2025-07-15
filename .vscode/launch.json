@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stringcontinous",
+            "request": "launch",
+            "mainClass": "stringcontinous",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
