@@ -1,6 +1,6 @@
 public class palin2 {
     public static void main(String[] args) {
-     String s = "abcccdda";
+     String s = "abca";
 
      int i =0;
      int j = s.length()-1;
@@ -10,7 +10,8 @@ public class palin2 {
         if (s.charAt(i) == s.charAt(j)) {
             i++;
             j--;
-            ans = false;
+            ans = true;
+            break;
         }else if (s.charAt(i) != s.charAt(j)) {
             boolean leftskip = true;
             int x = i+1;
