@@ -6,10 +6,10 @@ public class maximumrepet {
 
         int count = 0;
         while (count < sequence.length()) {
-             if (build.toString().contains(word)) {
+             if (build.toString().contains(sequence)) {
             count++;
             build.append(word);
-            
+            break;
         }
         }
        

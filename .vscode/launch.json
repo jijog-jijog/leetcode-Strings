@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Solution1704",
+            "request": "launch",
+            "mainClass": "Solution1704",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "check2strings",
+            "request": "launch",
+            "mainClass": "check2strings",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "decryptstring",
+            "request": "launch",
+            "mainClass": "decryptstring",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "exelsheet168",
+            "request": "launch",
+            "mainClass": "exelsheet168",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "firstoccurence",
+            "request": "launch",
+            "mainClass": "firstoccurence",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "goalparsher",
+            "request": "launch",
+            "mainClass": "goalparsher",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "ipv4",
+            "request": "launch",
+            "mainClass": "ipv4",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "longpressed925",
+            "request": "launch",
+            "mainClass": "longpressed925",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "maximumrepet",
+            "request": "launch",
+            "mainClass": "maximumrepet",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "palin2",
+            "request": "launch",
+            "mainClass": "palin2",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "prefix",
+            "request": "launch",
+            "mainClass": "prefix",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "revstring",
+            "request": "launch",
+            "mainClass": "revstring",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "shufflestring",
+            "request": "launch",
+            "mainClass": "shufflestring",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "solution1967",
+            "request": "launch",
+            "mainClass": "solution1967",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "solution657",
+            "request": "launch",
+            "mainClass": "solution657",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "sorting",
+            "request": "launch",
+            "mainClass": "sorting",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
+            "name": "tolower",
+            "request": "launch",
+            "mainClass": "tolower",
+            "projectName": "leetcode_1854445d"
+        }
+    ]
+}
