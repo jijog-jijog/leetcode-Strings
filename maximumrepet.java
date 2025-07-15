@@ -4,7 +4,7 @@ public class maximumrepet {
                  word = "ab";
 
         int count = 0;
-        if (word.contains(sequence)) {
+        if (sequence.contains(word)) {
             count++;
         }
         System.out.println(count);
