@@ -1,16 +1,15 @@
 public class maximumrepet {
     public static void main(String[] args) {
         String sequence = "ababc",
-                 word = "ab";
+                 word = "ba";
         StringBuilder build = new StringBuilder(word);
 
         int count = 0;
-        while (count < sequence.length()) {
-             if (build.toString().contains(sequence)) {
+        while (sequence.contains(build.toString())) {
             count++;
             build.append(word);
-            break;
-        }
+
+        
         }
        
         System.out.println(count);
