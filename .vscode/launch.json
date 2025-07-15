@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lenoflast",
+            "request": "launch",
+            "mainClass": "lenoflast",
+            "projectName": "leetcode_1854445d"
+        },
+        {
+            "type": "java",
             "name": "stringcontinous",
             "request": "launch",
             "mainClass": "stringcontinous",
