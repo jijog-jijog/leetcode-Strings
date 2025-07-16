@@ -10,5 +10,7 @@ public class lenoflast {
         int last = split.length-1;
 
         System.out.println(split[last].length());
+
+        
     }
 }
