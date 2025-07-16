@@ -5,7 +5,7 @@ public class lenoflast {
         
         String s = "Hello World";
 
-        String[] split = s.split(" ");
+        String[]  split =  s.split(" ");
 
         int last = split.length-1;
 
