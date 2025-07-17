@@ -9,7 +9,7 @@ public class palindrome {
         String rep = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 
         int i = 0;
-        
+
 
         int j = rep.length()-1;
 
@@ -19,6 +19,7 @@ public class palindrome {
         while (i < j) {
 
             if (rep.charAt(i) == rep.charAt(j)) {
+                
                 i++;
                 j--;
             }else{
