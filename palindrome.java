@@ -32,7 +32,6 @@ public class palindrome {
                 ans = false;
 
                 break;
-
           }
         }
         System.out.println(ans);
