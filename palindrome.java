@@ -10,11 +10,12 @@ public class palindrome {
         int i = 0;
 
         int j = rep.length()-1;
+        
 
         boolean ans = true;
 
         while (i < j) {
-            
+
             if (rep.charAt(i) == rep.charAt(j)) {
                 i++;
                 j--;
