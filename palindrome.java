@@ -19,8 +19,9 @@ public class palindrome {
         while (i < j) {
 
             if (rep.charAt(i) == rep.charAt(j)) {
-                
+
                 i++;
+                
                 j--;
             }else{
                 ans = false;
