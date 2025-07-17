@@ -27,8 +27,9 @@ public class palindrome {
             }else{
 
                 ans = false;
-                
+
                 break;
+                
             }
         }
 
