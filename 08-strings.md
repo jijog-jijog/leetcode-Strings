@@ -66,3 +66,64 @@
 # Additionally
 
 - [Click "Show problem tags" and do questions that have tags for things we have learnt so far only.](https://leetcode.com/tag/string/)
+
+- Pattern wise
+
+- ✅ Phase 1: Two Pointers / Sliding Window Fundamentals
+These help with scanning substrings efficiently — a common base for many string problems.
+
+Get Equal Substrings Within Budget (Sliding Window)
+
+Minimum Length of String After Deleting Similar Ends (Two Pointers from both ends)
+
+Number of Substrings With Only 1s (Math + Sliding Window)
+
+Count Number of Homogenous Substrings (Grouping + Math)
+
+Jump Game VII (Sliding Window optimization in boolean arrays)
+
+Repeated String Match (Greedy + String Matching idea)
+
+✅ Phase 2: Substring Grouping / Prefix Logic / Splitting
+These problems focus on partitioning or understanding substrings with logic.
+
+Number of Ways to Split a String (Prefix Sum + Combinatorics)
+
+Maximum Number of Removable Characters (Binary Search + Substring Validity)
+
+Split Two Strings to Make Palindrome (Greedy + Two Pointers)
+
+Swap Adjacent in LR String (Greedy Movement Validation)
+
+Find Kth Bit in Nth Binary String (Recursion + Observation on symmetric construction)
+
+✅ Phase 3: Sorting + Time Formatting / Custom Construction
+Start working on manipulation-heavy problems now.
+
+Minimum Time Difference (Sorting + Edge wrap-around logic)
+
+Shifting Letters (Suffix Sum + ASCII manipulation)
+
+Multiply Strings (Simulating Big Integer Multiplication)
+
+✅ Phase 4: Parsing, Complex Construction, and Harder Matching
+These require deeper understanding of parsing or sentence construction.
+
+Basic Calculator II (Stack + Math Expression Parsing)
+
+Print Words Vertically (Matrix Simulation from Line Splitting)
+
+Camelcase Matching (Regex / Greedy matching character pattern)
+
+Sentence Similarity III (Greedy + Two Pointers + Extra logic for synonyms or similarity)
+
+📌 Summary by Concepts
+Pattern/Concept	Problems
+Sliding Window	Get Equal Substrings, Substrings with Only 1s, Homogenous Substrings
+Two Pointers	Deleting Similar Ends, Split Two Strings, Swap in LR String
+Prefix / Grouping	Ways to Split String, Kth Bit, Homogenous Substrings
+Sorting + Time	Minimum Time Difference
+ASCII Manipulation	Shifting Letters, Multiply Strings
+Parsing / Simulation	Basic Calculator II, Print Vertically, Camelcase Matching
+Binary Search	Max Removable Characters
+Greedy + Matching	Repeated String Match, Sentence Similarity III
