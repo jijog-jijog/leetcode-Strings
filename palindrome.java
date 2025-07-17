@@ -28,7 +28,6 @@ public class palindrome {
                 j--;
 
             }else{
-
                 ans = false;
 
                 break;
