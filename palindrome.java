@@ -36,9 +36,8 @@ public class palindrome {
             }
 
         }
-
         System.out.println(ans);
-        
+
         AsyncBoxView
 
     }
