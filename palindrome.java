@@ -1,5 +1,4 @@
 
-import javax.swing.text.AsyncBoxView;
 
 
 
@@ -24,7 +23,6 @@ public class palindrome {
             if (rep.charAt(i) == rep.charAt(j)) {
 
                 i++;
-
                 j--;
             }else{
                 ans = false;
@@ -34,7 +32,6 @@ public class palindrome {
         }
         System.out.println(ans);
 
-        AsyncBoxView
 
     }
 }
