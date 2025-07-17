@@ -21,8 +21,9 @@ public class palindrome {
             if (rep.charAt(i) == rep.charAt(j)) {
 
                 i++;
-                
+
                 j--;
+                
             }else{
                 ans = false;
                 break;
